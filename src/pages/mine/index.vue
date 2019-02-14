@@ -1,12 +1,16 @@
 <template>
     <div class="page" id="mine">
-        <h1>我的</h1>
+        <!-- <h1>我的</h1> -->
+         <personal/>
     </div>
 </template>
 
 <script>
+import personal from '../../components/mineCom/personal';
 export default {
-
+components:{
+    personal
+}
 }
 </script>
 

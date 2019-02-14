@@ -40,7 +40,15 @@ export default new Router({
     {
       path: '/mine',
       name: 'mine',
-      component: Mine
+      component: Mine,
+      children:[
+        {
+          path:'personal',
+          props:true,
+          component:()=>import('../components/mineCom/personal')
+        }
+      ]
     }
+    
   ]
 })
