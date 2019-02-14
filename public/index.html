@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="stylesheet" href="<%= BASE_URL %>css/reset.css">
-    <link rel="stylesheet" href="<%= BASE_URL %>css/border.css">
-    <link rel="stylesheet" href="<%= BASE_URL %>css/mint_ui.min.css">
-    <title>ublog</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but ublog doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet" href="<%= BASE_URL %>css/reset.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>css/border.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>css/mint_ui.min.css">
+ <style>
+   body{
+     font-size: 14px;
+   }
+ </style>
+  <title>ublog</title>
+</head>
+
+<body>
+    <script>
+        function resizeFontsize() {
+          console.log('执行了');
+          var width = document.documentElement.clientWidth;
+          document.documentElement.style.fontSize = width / 3.75 + 'px';
+        }
+        resizeFontsize();
+        window.addEventListener('orientationchange', resizeFontsize)
+        window.addEventListener('resize', resizeFontsize)
+      </script>
+  <noscript>
+    <strong>We're sorry but ublog doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>

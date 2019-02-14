@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF5E5E" offset="0%"></stop>
+            <stop stop-color="#FFA5A5" offset="49.4718591%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="31.2190439 0.780487805 0.0924097561 0.780487805 0.0924097561 0.000156097561 31.2190439 0.000156097561"></polygon>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle-8" fill="url(#linearGradient-1)" transform="translate(20.632218, 12.827340) rotate(-315.000000) translate(-20.632218, -12.827340) " x="17.1200225" y="1.51026641" width="7.02439024" height="22.6341463"></rect>
+            <g id="Group-2">
+                <g id="Page-1" transform="translate(0.780488, 0.000000)">
+                    <path d="M24.5562537,13.5378732 L9.35547317,28.4740683 C8.75059512,29.0688 0.00132682927,29.0149463 0.00132682927,29.0149463 C0.00132682927,29.0149463 -0.0540878049,20.4178732 0.551570732,19.8231415 L20.3611317,0.358556098 C20.9660098,-0.23617561 22.1211317,-0.0738341463 22.9289366,0.719141463 L28.7982049,6.48616585 C29.6052293,7.27914146 29.7699122,8.41475122 29.1650341,9.00948293" id="Stroke-1" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Group-5" transform="translate(0.000000, 31.219512)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M0.0924097561,0.000156097561 L31.2190439,0.000156097561" id="Stroke-3" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-3)"></path>
+                    </g>
+                </g>
+                <rect id="Rectangle-6" fill="#000000" x="0" y="30.4390244" width="32" height="1.56097561" rx="0.780487805"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

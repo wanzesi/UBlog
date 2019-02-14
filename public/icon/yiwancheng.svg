@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FF4949" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FF5A5A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(1.000000, 0.000000)">
+            <path d="M30.4761905,16.7619048 C30.4761905,25.1779048 23.6540952,32 15.2380952,32 C6.82209524,32 0,25.1779048 0,16.7619048 C0,8.34590476 6.82209524,1.52380952 15.2380952,1.52380952 C18.2415238,1.52380952 21.0430476,2.39314286 23.4026667,3.89333333" id="Page-1" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-10" fill="url(#linearGradient-1)" transform="translate(20.161640, 16.174256) rotate(-45.000000) translate(-20.161640, -16.174256) " x="9.79966158" y="14.6504466" width="20.7239572" height="3.04761905"></rect>
+            <rect id="Rectangle-11" fill="url(#linearGradient-2)" transform="translate(10.943970, 20.086827) rotate(-315.000000) translate(-10.943970, -20.086827) " x="5.61063698" y="18.5630179" width="10.6666667" height="3.04761905"></rect>
+        </g>
+    </g>
+</svg>

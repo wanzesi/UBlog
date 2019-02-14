@@ -17,7 +17,25 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: Home
+      component: Home,
+      children: [
+        {
+          path: 'tuanjian',
+          props: true,
+          component: ()=>import('../components/homeCom/tuanjian.vue')
+        },
+        {
+          path: 'qinzi',
+          props: true,
+          component: ()=>import('../components/homeCom/qinzi.vue')
+        },
+        {
+          path: 'faxian',
+          props: true,
+          component: ()=>import('../components/homeCom/faxian.vue')
+        }
+      ]
+      
     },
     {
       path: '/mine',

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="14px" viewBox="0 0 43 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9">
+            <path d="M0,7 C0,3.13400675 3.1270909,0 7.0043944,0 L43,0 L43,7 C43,10.8659932 39.8729091,14 35.9956056,14 L0,14 L0,7 Z" id="Rectangle-4" fill="#000000"></path>
+            <text id="金卡" font-family="PingFangSC-Regular, PingFang SC" font-size="9" font-weight="normal" fill="#C8A86B">
+                <tspan x="13" y="10">金卡</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

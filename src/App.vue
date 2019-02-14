@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <router-view/>
         <tab-bar>
             <tab-item v-for="tabItem in tabList" :key="tabItem.title" :info="tabItem">
@@ -16,8 +17,8 @@
     data(){
       return {
         tabList:[
-          { title: '精选', path: '/home'},
-          { title: '我的', path: '/mine'}
+          { title: '精选', path: '/home', src: '../../../../public/img/sanheng.png'},
+          { title: '我的', path: '/mine', src: '../../../../public/img/wode.png'}
             
           
         ]

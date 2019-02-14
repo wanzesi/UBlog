@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.1934107,0 L13.0033308,0 C14.1060608,0 15,0.897245101 15,1.99485374 L15,4.13505385 M15,10.1047199 L15,12.0067158 C15,13.1075763 14.098145,14 13.0027823,14 L10.3225726,14 M4.99474209,14 L2.0027732,14 C0.896672105,14 0,13.1085605 0,11.9939912 L0,9.89170203 M0,4.048416 L0,2.0004873 L0,2.0004873 C0,0.89564867 0.89374135,0 2.00452612,0 L4.99911372,0" id="path-1"></path>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Rectangle-2">
+                <use fill="#999999" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#999999" stroke-width="1" d="M11.5412882,0.5 L13.0033308,0.5 C13.8284389,0.5 14.5,1.17190733 14.5,1.99485374 L14.5,3.04534599 L11.5412882,0.5 Z M14.5,11.1717891 L14.5,12.0067158 C14.5,12.8282785 13.8251675,13.5 13.0027823,13.5 L11.7042993,13.5 L14.5,11.1717891 Z M3.59975923,13.5 L2.0027732,13.5 C1.17042828,13.5 0.5,12.8300335 0.5,11.9939912 L0.5,10.9503719 L3.59975923,13.5 Z M0.5,3.0001094 L0.5,2.0004873 C0.5,1.17059112 1.17108466,0.5 2.00452612,0.5 L3.58721515,0.5 L0.5,3.0001094 Z"></path>
+            </g>
+            <path d="M0.5,6.5 L14.5,6.5" id="Line" stroke="#999999" fill="#999999" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

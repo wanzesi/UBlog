@@ -1,9 +1,9 @@
 <template>
  <router-link class="tab" :to="info.path">
-     <!-- <div>
-         <img src="/img/tab.png" :style="style">
-     </div> -->
-     <span><van-icon name="wap-home"/>{{info.title}}</span>
+     <div>
+         <img :src="info.src" :style="style">
+     </div>
+     <span>{{info.title}}</span>
  </router-link>
 </template>
 

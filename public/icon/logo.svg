@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="55px" viewBox="0 0 64 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-298" y="-224" width="651" height="587"></rect>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#979797" stroke-width="1" x="-297.5" y="-223.5" width="650" height="586"></rect>
+        </g>
+        <g id="Page-1" fill="#FFFFFF">
+            <path d="M0,54.1803 L3.515,54.1803 L24.686,8.5473 L30.547,21.4973 L22.927,37.9633 L21.594,40.9013 L39.33,40.9013 L42.406,40.9013 L24.686,1.9833 L0,54.1803 Z M32.176,25.0963 L38.001,37.9633 L26.157,37.9633 L32.176,25.0963 Z" id="Fill-1"></path>
+            <polygon id="Fill-2" points="37.7761 0.0003 34.8971 0.0113 59.7571 54.9553 63.0631 54.9553 38.0161 0.0003"></polygon>
+            <polygon id="Fill-3" points="15.2181 54.9552 49.1771 54.9552 47.8831 52.1682 16.5831 52.1652"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="34px" viewBox="0 0 26 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FF5656" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(1.000000, 1.000000)">
+            <g id="Page-1" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19.3,0 L22.4,0 C23.28,0 24,0.72 24,1.6 L24,30.4 C24,31.28 23.28,32 22.4,32 L1.6,32 C0.72,32 0,31.28 0,30.4 L0,1.6 C0,0.72 0.72,0 1.6,0 L4.5,0" id="Stroke-1"></path>
+                <path d="M8,0 L16,0" id="Stroke-3"></path>
+                <path d="M5.6,8 L18.4,8" id="Stroke-5"></path>
+                <path d="M5.6,16.4 L16,16.4" id="Stroke-7"></path>
+            </g>
+            <rect id="Rectangle-9" fill="url(#linearGradient-1)" x="4.8" y="23.2" width="14.4" height="2.4"></rect>
+        </g>
+    </g>
+</svg>
