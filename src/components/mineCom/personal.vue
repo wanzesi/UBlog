@@ -19,7 +19,7 @@
             <div class="card">
                 <div class="quan">
                     <span>0</span>
-                    <i>卡券</i>
+                    <i @click="cardAction">卡券</i>
                 </div>
                 <div class="collection">
                      <span>0</span>
@@ -57,7 +57,6 @@
         </div>
         <router-view/>
     </div>
-    
 </template>
 
 <script>
@@ -71,6 +70,11 @@ export default {
     },
     myInformation(){
       this.$router.push({path: '/mine/information'});
+    },
+    cardAction(){
+      this.$router.push({
+        path:'/mine/mycard'
+      });
     }
   }
 };
@@ -85,6 +89,7 @@ export default {
   left: 0;
   bottom: 0.49rem;
   width: 100%;
+  height: 100%;
   .personal {
     width: 100%;
     height: 2.32rem;

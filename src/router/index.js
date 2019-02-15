@@ -22,7 +22,8 @@ export default new Router({
         {
           path: 'tuanjian',
           props: true,
-          component: ()=>import('../components/homeCom/tuanjian.vue')
+          component: ()=>import('../components/homeCom/regiment.vue')
+          
         },
         {
           path: 'qinzi',
@@ -33,6 +34,16 @@ export default new Router({
           path: 'faxian',
           props: true,
           component: ()=>import('../components/homeCom/faxian.vue')
+        },
+        {
+          path:'regimentPeople',
+          props:true,
+          component:()=>import('../pages/home/regimentPeople')
+        },
+        {
+          path:'people',
+          props:true,
+          component:()=>import('../components/homeCom/people')
         }
       ]
       
@@ -56,8 +67,14 @@ export default new Router({
           path: 'information',
           props: true,
           component: ()=>import('../components/mineCom/myInformation.vue')
+        },
+        {
+          path:'mycard',
+          props:true,
+          component:()=>import('../components/mineCom/myCard')
         }
       ]
     }
+    
   ]
 })
