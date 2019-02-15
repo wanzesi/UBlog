@@ -19,8 +19,6 @@
         tabList:[
           { title: '精选', path: '/home', src: '../../../../public/img/sanheng.png'},
           { title: '我的', path: '/mine', src: '../../../../public/img/wode.png'}
-            
-          
         ]
       }  
     }

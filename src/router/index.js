@@ -40,7 +40,24 @@ export default new Router({
     {
       path: '/mine',
       name: 'mine',
-      component: Mine
+      component: Mine,
+      children: [
+        {
+          path: 'membership',
+          props: true,
+          component: ()=>import('../components/mineCom/memberShip.vue')
+        },
+        {
+          path: 'order',
+          props: true,
+          component: ()=>import('../components/mineCom/myOrder.vue')
+        },
+        {
+          path: 'information',
+          props: true,
+          component: ()=>import('../components/mineCom/myInformation.vue')
+        }
+      ]
     }
   ]
 })

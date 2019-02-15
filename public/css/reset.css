@@ -20,7 +20,7 @@ html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
         text-decoration: none;
         color: #000;
     }
-    ul,ol {
+    ul,ol,li {
         list-style: none
     }
     input {
@@ -48,4 +48,7 @@ html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
     }
     table {
         border-collapse: collapse
+    }
+    i{
+        font-style: normal;
     }
