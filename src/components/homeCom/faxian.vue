@@ -91,15 +91,17 @@ export default {
 .discover {
   display: block;
   width: 100%;
-  position: relative;
+  position: absolute;
   left: 0;
   top: 0;
   overflow: hidden;
   background: #fff;
   .header {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 100;
     height: 44px;
 
     span {
@@ -108,7 +110,7 @@ export default {
       top: 0.1rem;
       font-size: 0.24rem;
     }
-  }
+  
   h1 {
     text-align: center;
     width: 100%;
@@ -118,13 +120,14 @@ export default {
     font-size: 0.18rem;
     font-weight: normal;
   }
+  }
 }
 .banner {
   width: 100%;
   // width: 3rem;
   // height: 2rem;
   position: relative;
-  top: 0px;
+  top: 0.44rem;
 }
 .time{
     width: 90%;
@@ -132,7 +135,7 @@ export default {
     border-radius: 0.08rem;
     border-bottom: 1px solid #666;
     margin: 0 auto;
-    margin-top: 0.2rem;
+    margin-top: 0.6rem;
     p{
            text-align: center;
            color: #999;

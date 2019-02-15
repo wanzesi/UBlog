@@ -1,5 +1,5 @@
 <template>
-    <div id="mine">
+    <div id="my">
         <div class="personal">
             <div class="person">
                 <div>
@@ -19,7 +19,7 @@
             <div class="card">
                 <div class="quan">
                     <span>0</span>
-                    <i>卡券</i>
+                    <i @click="cardAction">卡券</i>
                 </div>
                 <div class="collection">
                      <span>0</span>
@@ -55,22 +55,32 @@
                 <span>更多</span>
             </div>
         </div>
+        <router-view/>
     </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods:{
+    cardAction(){
+      this.$router.push({
+        path:'/mine/mycard'
+      });
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-#mine {
-  z-index: 1;
+#my {
+  // z-index: 1;
   background: white;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0.49rem;
   width: 100%;
+  height: 100%;
   .personal {
     width: 100%;
     height: 2.32rem;

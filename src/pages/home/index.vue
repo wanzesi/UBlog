@@ -23,6 +23,7 @@
           <img src="../../../public/img/discover.png" @click="goFaxian" >
         </van-swipe-item>
       </van-swipe>
+      <people/>
     </scroller>
   </div>
   <router-view/>
@@ -30,11 +31,15 @@
 </template>
 
 <script>
+import people from '../../components/homeCom/people'
 import { getHomeBanner } from "../../services/homeService";
 import Vue from "vue";
 import { Swipe, SwipeItem } from "vant";
 Vue.use(Swipe).use(SwipeItem);
 export default {
+  components:{
+    people
+  },
   data() {
     return {
       img1: "",
@@ -69,6 +74,7 @@ export default {
 
 <style lang="scss" scoped>
 #home {
+  z-index: -1;
   .header {
     width: 100%;
     height: 44px;
