@@ -6,7 +6,7 @@
         <van-icon name="scan" class="fdj"/>
         <span>扫一扫</span>
       </div>
-      <p>
+      <p @click="goSearch">
         <van-icon name="search" class="fdj"/>搜索目的地或酒店
       </p>
     </div>
@@ -32,13 +32,15 @@
 
 <script>
 import people from '../../components/homeCom/people'
+import search from '../../components/homeCom/search'
 import { getHomeBanner } from "../../services/homeService";
 import Vue from "vue";
 import { Swipe, SwipeItem } from "vant";
 Vue.use(Swipe).use(SwipeItem);
 export default {
   components:{
-    people
+    people,
+    search
   },
   data() {
     return {
@@ -56,7 +58,10 @@ export default {
      },
      goFaxian(){
         this.$router.push('/home/faxian');
-     }    
+     },
+     goSearch(){
+        this.$router.push('/home/search');
+     }  
      
   },
   created() {

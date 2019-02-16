@@ -44,6 +44,11 @@ export default new Router({
           path:'people',
           props:true,
           component:()=>import('../components/homeCom/people')
+        },
+        {
+          path:'search',
+          props:true,
+          component:()=>import('../components/homeCom/search')
         }
       ]
       
